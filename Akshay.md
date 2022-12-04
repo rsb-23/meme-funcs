@@ -14,10 +14,10 @@ def akshay_swap(phrase):
         mid = f" {mid} "
     else:
         return "You are MEME illiterate"
-    vowels = r'[aeiouyAEIOUY@03]'
+    vowels = r'[aeiouyAEIOU@03]'
     try:
-        a = re.search(vowels, first).span()[0]
-        b = re.search(vowels, last).span()[0]
+        a = re.search(vowels, first.title()).span()[0]
+        b = re.search(vowels, last.title()).span()[0]
     except AttributeError as e:
         return " ".join(reversed(words))
     return f"{last[:b]}{first[a:]}{mid}{first[:a]}{last[b:]}"
