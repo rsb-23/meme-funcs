@@ -1,0 +1,3 @@
+[submodule "getsetgo"]
+	path = getsetgo
+	url = https://github.com/rsb-23/getsetgo.git
