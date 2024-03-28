@@ -13,8 +13,8 @@ def bitbool(idx):
     vals = [0, 1, False, True]
 
     for i, tups in enumerate(product(vals, ops, vals)):
-        x = "{} {} {}".format(*tups)
         if i == idx:
+            x = "{} {} {}".format(*tups)
             print(f"{x=}, val={eval(x)}")
             break
     else:
