@@ -1,4 +1,4 @@
-theme: jekyll-theme-architect
+theme: minimal-mistakes-jekyll
 
 plugins:
   - jemoji
