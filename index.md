@@ -15,6 +15,7 @@ title: Meme Funcs
 Converting memes to Python code :stuck_out_tongue:
 
 ### Memes
+
 | Name                                           | Image                                                                 |
 |------------------------------------------------|-----------------------------------------------------------------------|
 | [Akshay Swap](./funcs/vowel_play.py)           | :joy:                                                                 |
