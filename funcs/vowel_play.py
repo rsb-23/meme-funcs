@@ -1,5 +1,6 @@
 import re
-from typing import Callable
+
+from funcs.tester import tester
 
 
 def vowel_index(word: str) -> int:
@@ -37,11 +38,6 @@ def brefix(phrase: str) -> str:
         words[i] = f"B{word[1:vi]}{word[vi:]}".title()
 
     return " ".join(words)
-
-
-def tester(func: Callable, expectations: dict):
-    for inp, outp in expectations.items():
-        assert func(inp) == outp
 
 
 def tests():
